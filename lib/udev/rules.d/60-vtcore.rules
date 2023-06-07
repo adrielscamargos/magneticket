@@ -1,0 +1,5 @@
+# udev rules for Voicetronix vtcore devices.
+
+KERNEL=="vt[0-9]", SUBSYSTEM=="vtcore", GROUP="audio"
+KERNEL=="vt/board[0-9]*/tap[0-9]*", SUBSYSTEM=="vtcore", GROUP="audio"
+

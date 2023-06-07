@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: cfg
+Version: 3.0.3
+Description: cfg
+Requires: libqb
+Libs: -L${libdir} -lcfg
+Cflags: -I${includedir}

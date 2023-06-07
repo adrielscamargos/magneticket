@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: corosync_common
+Version: 3.0.3
+Description: corosync_common
+Requires: libqb
+Libs: -L${libdir} -lcorosync_common
+Cflags: -I${includedir}

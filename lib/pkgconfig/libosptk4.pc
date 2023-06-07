@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OSPToolkit
+Description: OSP shared library
+Version: 4.13.0
+Requires: 
+Libs: -L${libdir} -losptk
+Libs.private: -lssl -lcrypto -lm -pthread
+Cflags: -I${includedir} -I${includedir}/osp

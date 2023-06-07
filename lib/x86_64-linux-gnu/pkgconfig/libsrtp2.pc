@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: libsrtp2
+Version: 2.3.0
+Description: Library for SRTP (Secure Realtime Transport Protocol)
+
+Libs: -L${libdir} -lsrtp2 
+Cflags: -I${includedir}
