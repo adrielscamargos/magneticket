@@ -1,3 +1,0 @@
-VERSION=2.58+20.04
-SNAPD_APPARMOR_REEXEC=1
-SNAPD_ASSERTS_FORMATS='{"snap-declaration":5,"system-user":2}'

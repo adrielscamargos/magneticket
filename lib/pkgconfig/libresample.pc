@@ -1,7 +1,0 @@
-prefix=/usr
-
-Name: libresample
-Description: real-time audio resampling library
-Version: 0.1.3
-Cflags: -g -O2 -g -Wall -O2
-Libs: -Wl,-Bsymbolic-functions -lm
