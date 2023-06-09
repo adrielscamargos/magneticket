@@ -41,6 +41,13 @@
 
 Alterado por Adriel Silva Camargos
 09/06/2023 ás 17:34
+#
+OBS altere suas senhas de banco de dados em "config"
+suasenha, suasenhadesuperusuarioMysql, suasenhadobanco
+
+deploy_password=suasenha=
+mysql_root_password=suasenhadesuperusuarioMysql=
+db_pass=suasenhadobanco=
 
 ## CRIAR SUBDOMINIO E APONTAR PARA O IP DA SUA VPS ##
 
@@ -49,6 +56,7 @@ SUB 2: BACKEND DO WHATICKET > apiwhaticket.magnetrontelecom.com.br
 SUB 3: FRONTEND DO CHATBOT > appchatbot.magnetrontelecom.com.br
 SUB 4: BACKEND DO CHATBOT > apichatbot.magnetrontelecom.com.br
 
+Obs:URL de exemplos utile as suas url´s
 ## CHECAR PROPAGAÇÃO DO DOMÍNIO ##
 
 https://dnschecker.org/
@@ -121,13 +129,13 @@ FRONTEND_URL=https://atendimento.converteja.com.br
 PROXY_PORT=443
 PORT=8080
 CHROME_BIN=/usr/bin/google-chrome-stable
-DIALOG_FLOW_JSON=zdg-9un9-0aba54d6e44c.json
+DIALOG_FLOW_JSON=#############.json
 DIALOG_FLOW_PROJECT_ID=zdg-9un9
 DIALOG_FLOW_LANGUAGE=pt-br
 DIALOG_FLOW_STATUS=off
 VONAGE_APIKEY=4542a449
-VONAGE_APISECRET=Tb2yD2lq9y6kP0Dg
-VONAGE_APPLICATIONID=d72e7e96-2f75-46a3-8e13-e11b9d239856
+VONAGE_APISECRET=##########
+VONAGE_APPLICATIONID=###############
 GROUPS=off
 EMAIL_SERVICE=gmail
 EMAIL_USER=zdgads@gmail.com
@@ -135,7 +143,7 @@ EMAIL_PASS=enousbucwhhkkiyx
 EMAIL_FROM=zdgads@gmail.com
 EMAIL_TO=zapdasgalaxias@gmail.com
 N8N=off
-N8N_WEBHOOK=https://jqaur1m11ongj279cq9g0hes.hooks.n8n.cloud/webhook/549feb55-7df0-4f7e-a8e6-2eefd0c3551a
+N8N_WEBHOOK=https://###########3.hooks.n8n.cloud/webhook/549feb55-7df0-4f7e-a8e6-2eefd0c3551a
 
 DB_DIALECT=mysql
 DB_HOST=localhost
