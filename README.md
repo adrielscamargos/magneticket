@@ -37,6 +37,10 @@
 
 Alterado por Adriel Silva Camargos
 09/06/2023 ás 17:34
+baseado no projeto de Cassio Santos canove
+https://github.com/canove/whaticket-community
+e Pedrinho da ZDG
+
 #
 OBS altere suas senhas de banco de dados em "config"
 suasenha, suasenhadesuperusuarioMysql, suasenhadobanco
