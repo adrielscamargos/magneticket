@@ -7,11 +7,11 @@
 jwt_secret=3123123213123
 jwt_refresh_secret=75756756756
 
-deploy_password=Hj5gx9Adriel=
+deploy_password=#Your_user_deploy_password_here=
 
 #mysql_root_password=$(openssl rand -base64 32)
 
-db_pass=A!2756a@Mag
+db_pass=Your_DB_password_here
 
 db_user=root
 db_name=whaticket
